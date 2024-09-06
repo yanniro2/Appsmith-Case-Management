@@ -1,0 +1,13 @@
+{
+	"application": {{appsmith.URL.queryParams.application}},
+	"type": "Recertification",
+	"employment": {
+	"isemployed": {{RadioGroup1Copy1.selectedOptionValue}},
+	"isregistered": {{RadioGroup2Copy1.selectedOptionValue}}
+	"englishProficiency": {{List3.currentItemsView}},
+	"selectedPaymentFactor": {{Select3Copy.selectedOptionValue}},
+	"PaymentFactorNote": {{Input15.text}}
+},
+"note": {{Input1CopyCopy.text}},
+"submitted": false
+}
